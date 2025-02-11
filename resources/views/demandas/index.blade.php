@@ -263,7 +263,6 @@
     <script>
 
         function editarDemanda(demanda) {
-            console.log(demanda);
             document.getElementById("editCodigo").value = demanda.codigo;
             document.getElementById("editDescricao").value = demanda.descricao;
             document.getElementById("editDescriweb").value = demanda.descricaoweb;
